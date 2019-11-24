@@ -1,0 +1,20 @@
+
+.container {
+    background: #202429;
+    height: 55vh;
+    width: 50vw;
+    margin: 30px;
+}
+
+.y-axis {
+    height: 100%;
+    width: 100%;
+    border-left: 1px solid #919191;
+    border-right: 1px dotted #919191;
+    
+}
+
+.x-axis {
+    width: 540px;
+    border-bottom: 1px solid #919191;
+}
