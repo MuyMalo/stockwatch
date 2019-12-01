@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "express": "^4.17.1",
     "react": "^16.11.0",
     "react-dom": "^16.11.0",
     "react-scripts": "3.2.0"
@@ -27,5 +28,18 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "index.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MuyMalo/stockwatch.git"
+  },
+  "author": "Alex Malo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MuyMalo/stockwatch/issues"
+  },
+  "homepage": "https://github.com/MuyMalo/stockwatch#readme"
 }
