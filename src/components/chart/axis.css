@@ -1,0 +1,10 @@
+table {
+    background: #202429;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+td {
+    padding: 3%;
+    border: 1px dotted rgba(255, 255, 255, 0.1);
+}
