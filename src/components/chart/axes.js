@@ -1,7 +1,7 @@
 import React from 'react';
-import './axis.css';
+import './axes.css';
 
-const Axis = (props) => {
+const Axes = (props) => {
     
     var dataColumns = props.data.columns;
     var dataRows = props.data.rows;
@@ -18,9 +18,9 @@ const Axis = (props) => {
         </tbody>); 
     });
      
-    return (<table className="table" width="100%">
+    return (<table className="table">
               {tableBody}
             </table>) 
 };
 
-export default Axis;
+export default Axes;

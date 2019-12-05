@@ -1,11 +1,11 @@
 import React from 'react';
 import './candlestick-chart.css';
-import Axis from './axis';
+import Axes from './axes';
 
 const CandlestickChart = (props) => {
     
     var tableData = {
-        columns: ['Service', 'Cost/Unit', 'Unit', 'Units Requested'],
+        columns: ['Service', '', 'Unit', '', '', '', '', '', '', ''],
         rows: [{
           'Service': 'Veterinary Assitance',
           'Cost/Unit': 50,
@@ -61,7 +61,7 @@ const CandlestickChart = (props) => {
 
       return (
         <div className="container">
-            <Axis data={tableData} />
+            <Axes data={tableData} />
             <div className="candlesticks">
                 
             </div>
